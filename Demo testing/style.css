@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background: #f8fafc;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.banner {
+  background: #2563eb;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.warning {
+  background: #fde68a;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}

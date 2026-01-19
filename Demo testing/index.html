@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Feature Flag Demo App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Feature Flag Controlled Web App</h1>
+
+  <div id="betaBanner" class="banner hidden">
+    🚀 You are viewing the BETA version of this app
+  </div>
+
+  <div class="card">
+    <h2>Checkout</h2>
+    <p id="checkoutText">Using legacy checkout flow</p>
+    <button>Place Order</button>
+  </div>
+
+  <div id="recommendations" class="card hidden">
+    <h2>Recommended for You</h2>
+    <ul>
+      <li>Wireless Mouse</li>
+      <li>Mechanical Keyboard</li>
+      <li>USB-C Hub</li>
+    </ul>
+  </div>
+
+  <div id="rateLimit" class="warning hidden">
+    ⚠️ You are approaching API rate limits
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
